@@ -47,3 +47,11 @@ Contrôles réellement exécutés après modification : check, 3/3 tests, build 
 Boutons principaux, filtres sélectionnés et couverture du dossier : orange #b54708 et texte blanc, contraste calculé 5,43:1. Survol #903700. Typographie, Bootstrap et métadonnées conservés.
 
 Check, 3/3 tests, build Pages, build autonome, deux scripts documentaires et diff --check réussis. La capture visuelle automatisée n’a pas été effectuée pour cette itération ; le calcul de contraste ne remplace pas la recette visuelle.
+
+## Gold et révision de lisibilité — 2 novembre 2026
+
+À la demande du pilote, l’orange est remplacé par Gold #edcc89 avec écriture bleu marine #071a31 ; contraste calculé 11,32:1. Aucun ancien code orange ne reste dans la CSS du site.
+
+Texte courant, lecteur Markdown, recherche et commandes principales : 16 px ; libellés, chemins et notes : au moins 14 px. Aucune déclaration font-size en px inférieure à 14 ne reste dans src/style.css. Les familles typographiques et Bootstrap sont conservés. Les espacements, la navigation, le visuel documentaire et les cartes mobiles sont adaptés au texte agrandi ; les cibles principales ont au moins 44 px de haut. Cette analyse de sources ne vaut pas mesure des styles calculés dans un navigateur.
+
+Contrôles réels : check, 3/3 tests, vérifications documentaires et diff --check réussis ; builds Pages et autonome réussis, puis reconstruits après ajustement du visuel documentaire. Accès navigateur indisponible (browser access host unavailable) : recette visuelle bureau/mobile et zoom 200 % à confirmer, sans succès visuel automatisé revendiqué.
