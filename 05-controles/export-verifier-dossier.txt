@@ -1,0 +1,6 @@
+Commande : python -X utf8 scripts/verifier-dossier.py
+Code : 0
+
+STRUCTURE : conforme aux contrôles automatiques de base.
+S09 : six rubriques ; S10 : douze rubriques ; S11 : cinq parties ; S12 : V1/V2 distinctes et journal présent.
+ATTENTION : ni validation humaine, ni vérité des contenus, ni droit de publication ne sont vérifiés par ce script.

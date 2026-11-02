@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "Dossier professionnel — dépôt dédié",
+      "path": "."
+    },
+    {
+      "name": "Atelier S12 — dépôt parent",
+      "path": "../atelier-seance-12-ln-ia"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "dossier-modele.zip": {
+    "size_bytes": 10374,
+    "sha256": "fa4d1504d5bdf76a61e0a7e6c3eef188b87ad49f12693b22e1135ad34c5bb700",
+    "included_in_pack": false
+  },
+  "supports-seance-09(2).zip": {
+    "size_bytes": 11141821,
+    "sha256": "35afcca733c47e4dc307134d75490df0fd7580cdf501ae6e0b9a178de716078f",
+    "included_in_pack": false
+  },
+  "supports-seance-10(3).zip": {
+    "size_bytes": 7901395,
+    "sha256": "3771d1f64affe0e792431e93673a70b0794738b24f714132063eb1936b1297db",
+    "included_in_pack": false
+  },
+  "supports-seance-11(2).zip": {
+    "size_bytes": 9188050,
+    "sha256": "e36f34c5dcd173a2b58d5f84cf1fe463e00d3cf24815f147030e620b0a8bab99",
+    "included_in_pack": false
+  },
+  "supports-seance-12(2).zip": {
+    "size_bytes": 9232227,
+    "sha256": "15f39b7f3d4af4e8327ffa949f7292d59d11710e4ca177a78797ad77e8d0ef42",
+    "included_in_pack": false
+  },
+  "Organigramme-Algorithme-Module03-LN-IA.md": {
+    "size_bytes": 21188,
+    "sha256": "9e6de9df7b9943ba05a255df42efb5c6e0a877b153bc70b892ad23a37fd91768",
+    "included_in_pack": false
+  },
+  "Guide-Dossier-Professionnel-Module03-LN-IA-Automne2026.docx": {
+    "size_bytes": 893998,
+    "sha256": "c9e8c47586fe3c7f7191c984ed8712072d88aeeb0cda007f2fac8e52ce177e1b",
+    "included_in_pack": false
+  }
+}

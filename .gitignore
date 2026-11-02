@@ -1,0 +1,17 @@
+# Dossiers locaux et données non publiables
+08-archives-privees/
+demo-travail/
+00-pilotage/etapes/
+scripts/produire-rejeu-2026-11-02.py
+scripts/consigner-rejeu-2026-11-02.py
+scripts/exporter-depot-dedie.py
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+dist/
