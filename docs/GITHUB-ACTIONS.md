@@ -21,3 +21,13 @@ Premier lancement Pages : https://github.com/elhisse-CLPrepas/dossier-profession
 La recette visuelle Chrome bureau/mobile reste à effectuer : Computer Use a interrompu la session car l’URL du navigateur ne pouvait pas être déterminée avec assez de certitude. Aucun succès visuel n’est revendiqué. Les 22 slides et autres contrôles de l’atelier parent ne constituent pas des tests de ce site documentaire dédié.
 
 Documentation officielle : https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+
+## Publication confirmée
+
+Le lancement Pages 41529250852 est terminé avec succès : jobs build et deploy réussis, version applicative 3c6221f. Le contrôle HTTP du site, du JavaScript, du CSS et du logo renvoie 200.
+
+Site : https://elhisse-clprepas.github.io/dossier-professionnel-role-humain-ia/
+
+Le premier contrôle continu du commit 1ba14a2 est réussi : https://github.com/elhisse-CLPrepas/dossier-professionnel-role-humain-ia/actions/runs/41529473841
+
+Les ajouts ultérieurs concernent la CI et sa documentation ; la publication reste manuelle. Ces résultats techniques ne changent pas le statut pédagogique À RELIRE de V1/V2.
