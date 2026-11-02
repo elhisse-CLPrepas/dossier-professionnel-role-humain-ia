@@ -39,3 +39,11 @@ Le pilote confirme dans la conversation la relecture visuelle et pédagogique de
 Palette reprise de sa feuille CSS publiée : fond #f3f5f8, panneaux blancs, marine #071a31 et #0c294c, or #edcc89 et #d6ac60, texte secondaire #536579. Le bandeau d’accueil est marine avec accents dorés. La typographie, les dimensions, Bootstrap, les métadonnées SEO et les documents sont conservés. Seuls theme-color et les couleurs du favicon sont harmonisés dans le head.
 
 Contrôles réellement exécutés après modification : check, 3/3 tests, build Pages, build autonome et les deux scripts Python documentaires réussis. La capture Chrome a expiré (FrameArrived timed out) ; aucune nouvelle vérification visuelle automatisée n’est revendiquée. La validation exprimée par le pilote porte sur la relecture du site ; elle ne transforme pas les exemples fictifs V1/V2 en attestations réelles.
+
+## Logo et contraste orange/blanc — 2 novembre 2026
+
+À la demande du pilote : logo officiel rectangulaire conservé sans retouche, affichage 176 × 88 px sur ordinateur et 140 × 70 px sur mobile, sans arrondi circulaire. L’en-tête s’adapte et le menu compact apparaît sous 1100 px ; le libellé adjacent s’efface sous 480 px pour laisser la place au logo complet.
+
+Boutons principaux, filtres sélectionnés et couverture du dossier : orange #b54708 et texte blanc, contraste calculé 5,43:1. Survol #903700. Typographie, Bootstrap et métadonnées conservés.
+
+Check, 3/3 tests, build Pages, build autonome, deux scripts documentaires et diff --check réussis. La capture visuelle automatisée n’a pas été effectuée pour cette itération ; le calcul de contraste ne remplace pas la recette visuelle.
