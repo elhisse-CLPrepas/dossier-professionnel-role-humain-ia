@@ -55,3 +55,9 @@ Check, 3/3 tests, build Pages, build autonome, deux scripts documentaires et dif
 Texte courant, lecteur Markdown, recherche et commandes principales : 16 px ; libellés, chemins et notes : au moins 14 px. Aucune déclaration font-size en px inférieure à 14 ne reste dans src/style.css. Les familles typographiques et Bootstrap sont conservés. Les espacements, la navigation, le visuel documentaire et les cartes mobiles sont adaptés au texte agrandi ; les cibles principales ont au moins 44 px de haut. Cette analyse de sources ne vaut pas mesure des styles calculés dans un navigateur.
 
 Contrôles réels : check, 3/3 tests, vérifications documentaires et diff --check réussis ; builds Pages et autonome réussis, puis reconstruits après ajustement du visuel documentaire. Accès navigateur indisponible (browser access host unavailable) : recette visuelle bureau/mobile et zoom 200 % à confirmer, sans succès visuel automatisé revendiqué.
+
+## Intégration de l’affiche — 3 novembre 2026
+
+Affiche placée après les quatre étapes du parcours, avant les documents. Résumé HTML, image responsive sans recadrage, lien vers le PNG original et téléchargement. Aperçu WebP intégré au HTML autonome ; conserver le dossier standalone/affiches/ avec le HTML pour ouvrir ou télécharger aussi le PNG original hors ligne.
+
+Résultats réels : check, 3/3 tests, builds Pages et autonome réussis. Chemin Pages du PNG, présence dans dist et position de la section vérifiés. Identité SHA256 du PNG copié avec le fichier fourni confirmée. Les deux scripts documentaires réussissent ; aucune inspection visuelle navigateur de cette itération n’est revendiquée.

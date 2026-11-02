@@ -20,3 +20,9 @@ La fiche d'identification détaillée, les versions V1 et V2 rédigées pour cet
 - Le mot « validé » est réservé à une décision réelle d'une personne habilitée, qui **n'a pas été prise** ici.
 - Les sources historiques originales ne sont **pas réécrites** ni publiées dans cet exemple. Elles restent disponibles dans les quatre ZIP fournis au formateur.
 - Les scripts ne mesurent ni l'apprentissage réel, ni la précision factuelle des textes.
+
+## Affiche du replay S12 — 3 novembre 2026
+
+Affiche fournie par le pilote : « De l’idée au guide professionnel avec l’IA.png », 1086 × 1448 pixels, annonçant le replay de la séance du 2 novembre 2026. Intégration après le parcours S09–S12 et avant la bibliothèque documentaire, avec résumé textuel, texte alternatif, ouverture en grand et téléchargement.
+
+Original public conservé sans modification dans public/affiches/de-idee-au-guide-professionnel-ia.png. SHA256 : 112af688c870504674d1b79da7e03148c8e141fad22ebc8114f4ce75a3de28f4. Aperçu src/affiche-guide-professionnel.webp, qualité 88, dimensions conservées, 321400 octets. Cette conversion technique ne modifie pas le contenu éditorial de l’original.
