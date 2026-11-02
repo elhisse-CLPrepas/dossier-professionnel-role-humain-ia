@@ -1,0 +1,10 @@
+import { readFileSync, existsSync } from 'node:fs';
+import assert from 'node:assert/strict';
+const html=readFileSync('index.html','utf8');
+for(const marker of ['lang="fr"','name="viewport"','name="description"','rel="canonical"','property="og:title"','name="twitter:card"','application/ld+json','id="reader"']) assert.ok(html.includes(marker),marker);
+assert.ok(readFileSync('vite.config.js','utf8').includes('/dossier-professionnel-role-humain-ia/'));
+assert.equal(JSON.parse(readFileSync('package.json')).dependencies.bootstrap,'6.0.0-alpha.1');
+for(const f of ['src/main.js','src/style.css','src/logo-ln-ia.webp','public/robots.txt','public/sitemap.xml','.github/workflows/pages.yml'])assert.ok(existsSync(f),f);
+const catalogue=readFileSync('src/catalogue.js','utf8');
+assert.ok(!catalogue.includes('08-archives-privees'));
+console.log('Métadonnées, base Pages, Bootstrap exact et fichiers publics : OK.');

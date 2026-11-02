@@ -70,7 +70,7 @@ La [procédure de préparation](06-publication/PREPARATION-DEPOT-GITHUB.md) déc
 
 Le pilote a autorisé le 2 novembre 2026 le commit local et le push de la sélection documentaire vers le dépôt dédié. Le checkout indépendant est situé à côté de `atelier-seance-12-ln-ia`, sans changement du remote parent. Le fichier `ln-ia.code-workspace` de cet export permet d’ouvrir le dossier dédié et l’atelier voisin dans VS Code ; si l’atelier n’est pas présent, ouvrir simplement le dossier dédié.
 
-Les contrôles propres à l’export sont consignés dans `05-controles/rapport-export-github.md`. Le manifeste `MANIFESTE-SHA256.txt` de l’export est régénéré pour ses fichiers publics. L’interface web dédiée et son workflow restent à développer. Aucun déploiement GitHub Pages n’est effectué lors de ce premier versionnement.
+Les contrôles propres à l’export sont consignés dans `05-controles/rapport-export-github.md`. Le manifeste `MANIFESTE-SHA256.txt` de l’export est régénéré pour ses fichiers publics. L’export initial n’incluait pas d’interface web. Le site Vite et son workflow manuel sont maintenant préparés ; voir les instructions ci-dessous. Aucun déploiement GitHub Pages n’est revendiqué.
 
 ## Sources, statut et diffusion
 
@@ -81,3 +81,27 @@ Les productions et traces préparées sont fictives. Aucune expérience réelle 
 Conserver les secrets, archives privées et conversations hors du dépôt public et du site. Vérifier droits, données et autorisation avant diffusion. Le `.gitignore` ne retire pas un fichier déjà suivi par Git. Aucune licence de réutilisation n’est déclarée ici ; les droits restent à préciser par le pilote.
 
 **L’IA propose ; l’humain pilote, contrôle, corrige et décide.**
+
+
+## Site Vite — Présentation interactive
+
+Le site dédié présente le parcours, un lecteur Markdown avec recherche et filtres, les différences V1/V2, les cinq responsabilités et le portfolio. Les documents intégrés proviennent exclusivement de la sélection publique. Aucun appel à un modèle IA ni collecte de données. Le logo officiel est copié sans modification depuis l’atelier.
+
+Prérequis : Node.js 22.12+ ou 24 LTS. Bootstrap est fixé à `6.0.0-alpha.1` (version alpha demandée).
+
+```powershell
+npm.cmd ci
+npm.cmd run dev
+npm.cmd run check
+npm.cmd test
+npm.cmd run build
+npm.cmd run standalone
+```
+
+Ouvrir l’URL indiquée par Vite (port 5175). Le build Pages est dans `dist/` ; `standalone/index.html` est une version autonome à ouvrir hors ligne après génération.
+
+Métadonnées : titre, description, langue, viewport, canonical, Open Graph, Twitter, JSON-LD, robots et sitemap. Une carte sociale PNG de 1200 × 630 px est fournie, avec sa source graphique SVG. Son aperçu par les plateformes restera à vérifier après publication. Bootstrap assure la base CSS responsive ; les métadonnées sont des balises HTML indépendantes du framework.
+
+Pages : le `base` Vite cible `/dossier-professionnel-role-humain-ia/`. Dans Settings → Pages, choisir GitHub Actions, puis lancer manuellement « Publier le dossier sur GitHub Pages ». Le workflow publie uniquement `dist/`. Aucun push n’active automatiquement ce workflow.
+
+Le manifeste SHA256 à la racine décrit l’export documentaire initial du commit `5ab879c` ; il ne décrit pas les évolutions ultérieures du site. Les dépendances sont reproduites par `package-lock.json`.

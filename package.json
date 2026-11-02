@@ -1,0 +1,26 @@
+{
+  "name": "ln-ia-dossier-professionnel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/check-build.mjs dist",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check-site.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "standalone": "vite build --mode standalone && node scripts/check-build.mjs standalone"
+  },
+  "dependencies": {
+    "bootstrap": "6.0.0-alpha.1",
+    "marked": "^17.0.0",
+    "dompurify": "^3.3.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}
