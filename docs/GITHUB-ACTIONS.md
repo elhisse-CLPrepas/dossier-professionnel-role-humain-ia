@@ -31,3 +31,11 @@ Site : https://elhisse-clprepas.github.io/dossier-professionnel-role-humain-ia/
 Le premier contrôle continu du commit 1ba14a2 est réussi : https://github.com/elhisse-CLPrepas/dossier-professionnel-role-humain-ia/actions/runs/41529473841
 
 Les ajouts ultérieurs concernent la CI et sa documentation ; la publication reste manuelle. Ces résultats techniques ne changent pas le statut pédagogique À RELIRE de V1/V2.
+
+## Harmonisation des couleurs — 2 novembre 2026
+
+Le pilote confirme dans la conversation la relecture visuelle et pédagogique de la version précédente et demande le retour aux couleurs du mini-site Module 03 : https://elhisse-clprepas.github.io/mini-site-module03-ln-ia/.
+
+Palette reprise de sa feuille CSS publiée : fond #f3f5f8, panneaux blancs, marine #071a31 et #0c294c, or #edcc89 et #d6ac60, texte secondaire #536579. Le bandeau d’accueil est marine avec accents dorés. La typographie, les dimensions, Bootstrap, les métadonnées SEO et les documents sont conservés. Seuls theme-color et les couleurs du favicon sont harmonisés dans le head.
+
+Contrôles réellement exécutés après modification : check, 3/3 tests, build Pages, build autonome et les deux scripts Python documentaires réussis. La capture Chrome a expiré (FrameArrived timed out) ; aucune nouvelle vérification visuelle automatisée n’est revendiquée. La validation exprimée par le pilote porte sur la relecture du site ; elle ne transforme pas les exemples fictifs V1/V2 en attestations réelles.
